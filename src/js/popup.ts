@@ -1,44 +1,44 @@
-const usernameInput = document.querySelector("#usernameInput")
-const button = document.querySelector("#submit")
+const usernameInput = document.querySelector<HTMLInputElement>("#usernameInput")
+const button = document.querySelector<HTMLButtonElement>("#submit")
 const p = document.querySelector("p")
-const replay = document.querySelector("#replay")
-const usernameDiv = document.querySelector("#username")
-const level = document.querySelector("#level")
-const rank_image = document.querySelector("#rank_image")
-const total_his = document.querySelector("#total_his")
-const totalt_win = document.querySelector("#total_win")
-const total_lose = document.querySelector("#total_lose")
-const winRate = document.querySelector("#winRate")
-const recent_his = document.querySelector("#recent_his")
-const recent_win = document.querySelector("#recent_win")
-const recent_lose = document.querySelector("#recent_lose")
-const recordTable = document.querySelector("#recordTable")
-const history = document.querySelector("#history")
+const replay = document.querySelector<HTMLButtonElement>("#replay")
+const usernameDiv = document.querySelector<HTMLDivElement>("#username")
+const level = document.querySelector<HTMLDivElement>("#level")
+const rank_image = document.querySelector<HTMLImageElement>("#rank_image")
+const total_his = document.querySelector<HTMLDivElement>("#total_his")
+const total_win = document.querySelector<HTMLDivElement>("#total_win")
+const total_lose = document.querySelector<HTMLDivElement>("#total_lose")
+const winRate = document.querySelector<HTMLDivElement>("#winRate")
+const recent_his = document.querySelector<HTMLDivElement>("#recent_his")
+const recent_win = document.querySelector<HTMLDivElement>("#recent_win")
+const recent_lose = document.querySelector<HTMLDivElement>("#recent_lose")
+const recordTable = document.querySelector<HTMLTableElement>("#recordTable")
+const history = document.querySelector<HTMLDivElement>("#history")
 
-const loader = document.querySelector('.loader');
-const html = document.querySelector('html');
+const loader = document.querySelector<HTMLDivElement>('.loader');
+// const html = document.querySelector('html');
 
 let replayURL = ""
 let replaySelected = false
 
-const XPtoLevel = (xp) => {
+const XPtoLevel = (xp:number) => {
     return Math.floor(Math.pow(xp / 500, 0.6) + (xp / (5000 + Math.max(0, xp - 4000000) / 5000)) + 1)
 }
-const getStream = async (streamID) => {
+const getStream = async (streamID:string) => {
     const result = await fetch(`https://ch.tetr.io/api/streams/league_userrecent_${encodeURIComponent(streamID)}`, {
         method: 'GET'
     });
     let data = await result.text()
     return data
 }
-const getRecord = async (user) => {
+const getRecord = async (user:string) => {
     const result = await fetch(`https://ch.tetr.io/api/users/${user}/records`, {
         method: 'GET'
     });
     let data = await result.text()
     return data
 }
-const parseMS = (oms) => {
+const parseMS = (oms:number) => {
     const roms = Math.round(oms);
 
     const ms = roms % 1000;
@@ -59,7 +59,7 @@ usernameInput.addEventListener("keyup", (e) => {
         }
     }
 })
-button.addEventListener("click", (e) => {
+button.addEventListener("click", () => {
     if (usernameInput.value) {
         search(usernameInput.value)
     }
@@ -71,7 +71,7 @@ replay.addEventListener("click", () => {
 
 })
 
-const search = async (username) => {
+const search = async (username:string) => {
     recordTable.innerHTML = ''
     loader.style.opacity = '1';
     loader.style.display = 'block'
@@ -155,9 +155,9 @@ const search = async (username) => {
             match_history.append(history_lose)
             lose_flag++
         }
-        match_history.addEventListener("click", (e) => {
+        match_history.addEventListener("click", () => {
             replaySelected = true
-            let historys = document.querySelectorAll(".match_history")
+            let historys = document.querySelectorAll<HTMLDivElement>(".match_history")
             historys.forEach(div => {
                 // div.style.backgroundColor = "#ffffff"
                 div.style.backgroundColor = ""
@@ -230,7 +230,9 @@ const search = async (username) => {
 
     loader.style.opacity = '0';
     usernameInput.value = ''
-    setTimeout(() => {
-        loader.style.display = 'none';
-    }, 400);
+    await new Promise(res => setTimeout(res, 400))
+    loader.style.display = 'none';
+    return true;
 }
+
+export {};
