@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Popup</title>
+</head>
+
+<body>
+    <div class="loader"></div>
+    <header>
+        <img src="/images/logo.png" id="logo">
+        <img src="/images/header_background.png" id="header-background">
+    </header>
+    <div id="search">
+        <p>Replay</p>
+        <button id="replay">▶</button>
+
+        <input type="text" id="usernameInput" placeholder="유저명(소문자로 입력해주세요.)">
+        <button id="submit">검색</button>
+        <!-- 유저 정보 -->
+        <div id="username"></div>
+        <div id="level"></div>
+        <img id="rank_image" src="">
+        <!-- 통산 전적 -->
+        <div id="total_his" class="WL"></div>
+        <div id="total_win" class="WL wins"></div>
+        <div id="total_lose" class="WL loses"></div>
+        <div id="winRate" class="WL"></div><br>
+        <!-- 최근 전적 -->
+        <div id="recent_his" class="WL"></div>
+        <div id="recent_win" class="WL wins"></div>
+        <div id="recent_lose" class="WL loses"></div>
+
+        <!-- 기록 -->
+        <div id="records">
+            <table id="recordTable">
+            </table>
+        </div>
+
+        <!-- 전적 display -->
+        <div id="history">
+
+        </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+
+</html>

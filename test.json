@@ -1,0 +1,916 @@
+{
+    "success": true,
+    "data": {
+        "records": [
+            {
+                "_id": "623840e7cc8f73e39428637a",
+                "stream": "league_userrecent_613c4ffd4f77f944f128af83",
+                "replayid": "623840e7cc8f73e394286378",
+                "user": {
+                    "_id": "613c4ffd4f77f944f128af83",
+                    "username": "quo_kor"
+                },
+                "ts": "2022-03-21T09:09:59.891Z",
+                "endcontext": [
+                    {
+                        "naturalorder": 0,
+                        "user": {
+                            "_id": "613c4ffd4f77f944f128af83",
+                            "username": "quo_kor"
+                        },
+                        "active": true,
+                        "wins": 3,
+                        "points": {
+                            "primary": 3,
+                            "secondary": 22.37578330363963,
+                            "tertiary": 0.9787166804156854,
+                            "extra": {
+                                "vs": 44.878402347702085
+                            },
+                            "secondaryAvgTracking": [
+                                18.31786890152649,
+                                17.967914438502675,
+                                20.588951082988565,
+                                32.62839879154079
+                            ],
+                            "tertiaryAvgTracking": [
+                                0.8440586650703382,
+                                0.983957219251337,
+                                0.8542224385495254,
+                                1.2326283987915407
+                            ],
+                            "extraAvgTracking": {
+                                "aggregatestats___vsscore": [
+                                    37.71325950314277,
+                                    38.50267379679145,
+                                    48.917011438306155,
+                                    54.380664652567965
+                                ]
+                            }
+                        },
+                        "inputs": 1200,
+                        "piecesplaced": 244
+                    },
+                    {
+                        "naturalorder": 1,
+                        "user": {
+                            "_id": "6211a676277194bceff47aee",
+                            "username": "kurothi"
+                        },
+                        "active": true,
+                        "wins": 1,
+                        "points": {
+                            "primary": 1,
+                            "secondary": 16.200417594566858,
+                            "tertiary": 0.8099639193790658,
+                            "extra": {
+                                "vs": 29.914024468730638
+                            },
+                            "secondaryAvgTracking": [
+                                6.436233611442193,
+                                39.57446808510638,
+                                18.790968681718862,
+                                0
+                            ],
+                            "tertiaryAvgTracking": [
+                                0.8402860548271752,
+                                0.9148936170212766,
+                                0.8375819373634377,
+                                0.6470940683043739
+                            ],
+                            "extraAvgTracking": {
+                                "aggregatestats___vsscore": [
+                                    10.727056019070321,
+                                    65.95744680851064,
+                                    42.97159504734159,
+                                    0
+                                ]
+                            }
+                        },
+                        "inputs": 1353,
+                        "piecesplaced": 223
+                    }
+                ],
+                "ismulti": true
+            },
+            {
+                "_id": "62383f86cc8f73e394286309",
+                "stream": "league_userrecent_613c4ffd4f77f944f128af83",
+                "replayid": "62383f86cc8f73e394286308",
+                "user": {
+                    "_id": "613c4ffd4f77f944f128af83",
+                    "username": "quo_kor"
+                },
+                "ts": "2022-03-21T09:04:06.595Z",
+                "endcontext": [
+                    {
+                        "naturalorder": 0,
+                        "user": {
+                            "_id": "613c4ffd4f77f944f128af83",
+                            "username": "quo_kor"
+                        },
+                        "active": true,
+                        "wins": 3,
+                        "points": {
+                            "primary": 3,
+                            "secondary": 13.301603186890606,
+                            "tertiary": 0.9225192496344722,
+                            "extra": {
+                                "vs": 29.626504204143846
+                            },
+                            "secondaryAvgTracking": [
+                                0,
+                                11.444466520961653,
+                                16.760597892673363,
+                                17.996327280146907,
+                                20.306624240671102
+                            ],
+                            "tertiaryAvgTracking": [
+                                0.8393285371702637,
+                                0.8464136697794555,
+                                1.0438617985787797,
+                                0.8936951642521934,
+                                0.989297078391669
+                            ],
+                            "extraAvgTracking": {
+                                "aggregatestats___vsscore": [
+                                    0,
+                                    26.226902443870454,
+                                    39.696152903700074,
+                                    37.95143848194245,
+                                    44.258027191206246
+                                ]
+                            }
+                        },
+                        "inputs": 2140,
+                        "piecesplaced": 437
+                    },
+                    {
+                        "naturalorder": 1,
+                        "user": {
+                            "_id": "6170fb3104c51254980d2ab8",
+                            "username": "sswallowss"
+                        },
+                        "active": true,
+                        "wins": 2,
+                        "points": {
+                            "primary": 2,
+                            "secondary": 16.654452232241063,
+                            "tertiary": 0.8180070046261647,
+                            "extra": {
+                                "vs": 35.88056403145028
+                            },
+                            "secondaryAvgTracking": [
+                                21.712907117008445,
+                                7.152791575601033,
+                                27.359646972297135,
+                                12.478336221837088,
+                                14.568579274461626
+                            ],
+                            "tertiaryAvgTracking": [
+                                0.8443908323281061,
+                                0.7868070733161135,
+                                0.8678597695513606,
+                                0.7584871036802937,
+                                0.8324902442549502
+                            ],
+                            "extraAvgTracking": {
+                                "aggregatestats___vsscore": [
+                                    36.1881785283474,
+                                    11.921319292668388,
+                                    69.13459181171855,
+                                    31.807523702721994,
+                                    30.351206821795056
+                                ]
+                            }
+                        },
+                        "inputs": 1913,
+                        "piecesplaced": 380
+                    }
+                ],
+                "ismulti": true
+            },
+            {
+                "_id": "6236ded9688b6fe3a88c1200",
+                "stream": "league_userrecent_613c4ffd4f77f944f128af83",
+                "replayid": "6236ded9688b6fe3a88c11fe",
+                "user": {
+                    "_id": "613c4ffd4f77f944f128af83",
+                    "username": "quo_kor"
+                },
+                "ts": "2022-03-20T07:59:21.458Z",
+                "endcontext": [
+                    {
+                        "naturalorder": 1,
+                        "user": {
+                            "_id": "613c4ffd4f77f944f128af83",
+                            "username": "quo_kor"
+                        },
+                        "active": true,
+                        "wins": 3,
+                        "points": {
+                            "primary": 3,
+                            "secondary": 20.29953899327756,
+                            "tertiary": 0.8904821392202518,
+                            "extra": {
+                                "vs": 42.992523599153046
+                            },
+                            "secondaryAvgTracking": [
+                                11.94954635981412,
+                                24.398508980006778,
+                                18.79077859939104,
+                                26.059322033898308
+                            ],
+                            "tertiaryAvgTracking": [
+                                0.8895773401194955,
+                                0.9962724500169434,
+                                0.8286211396259242,
+                                0.847457627118644
+                            ],
+                            "extraAvgTracking": {
+                                "aggregatestats___vsscore": [
+                                    31.201593272847976,
+                                    40.66418163334463,
+                                    45.019573727707694,
+                                    55.08474576271186
+                                ]
+                            }
+                        },
+                        "inputs": 1857,
+                        "piecesplaced": 390
+                    },
+                    {
+                        "naturalorder": 0,
+                        "user": {
+                            "_id": "62078f2c96a3908ab302bde6",
+                            "username": "nimendoushishabi"
+                        },
+                        "active": true,
+                        "wins": 1,
+                        "points": {
+                            "primary": 1,
+                            "secondary": 15.894906591007182,
+                            "tertiary": 1.0969652735863298,
+                            "extra": {
+                                "vs": 30.435442133484386
+                            },
+                            "secondaryAvgTracking": [
+                                16.738625041514446,
+                                8.530805687203792,
+                                16.048711536370554,
+                                22.26148409893993
+                            ],
+                            "tertiaryAvgTracking": [
+                                1.115908336100963,
+                                1.015572105619499,
+                                1.122105034250299,
+                                1.1342756183745584
+                            ],
+                            "extraAvgTracking": {
+                                "aggregatestats___vsscore": [
+                                    34.54001992693457,
+                                    14.218009478672988,
+                                    35.88126563009677,
+                                    37.102473498233216
+                                ]
+                            }
+                        },
+                        "inputs": 2301,
+                        "piecesplaced": 497
+                    }
+                ],
+                "ismulti": true
+            },
+            {
+                "_id": "6236dcc6ef065ce3b0b1c067",
+                "stream": "league_userrecent_613c4ffd4f77f944f128af83",
+                "replayid": "6236dcc6ef065ce3b0b1c066",
+                "user": {
+                    "_id": "613c4ffd4f77f944f128af83",
+                    "username": "quo_kor"
+                },
+                "ts": "2022-03-20T07:50:30.203Z",
+                "endcontext": [
+                    {
+                        "naturalorder": 1,
+                        "user": {
+                            "_id": "613c4ffd4f77f944f128af83",
+                            "username": "quo_kor"
+                        },
+                        "active": true,
+                        "wins": 3,
+                        "points": {
+                            "primary": 3,
+                            "secondary": 17.320884537727697,
+                            "tertiary": 0.8806859078630617,
+                            "extra": {
+                                "vs": 39.30035331549295
+                            },
+                            "secondaryAvgTracking": [
+                                15.938606847697757,
+                                21.560683459573717,
+                                14.463363305911614
+                            ],
+                            "tertiaryAvgTracking": [
+                                0.858913813459268,
+                                0.8877928483353885,
+                                0.8953510617945283
+                            ],
+                            "extraAvgTracking": {
+                                "aggregatestats___vsscore": [
+                                    31.87721369539551,
+                                    49.67412365686103,
+                                    36.3497225942223
+                                ]
+                            }
+                        },
+                        "inputs": 1892,
+                        "piecesplaced": 415
+                    },
+                    {
+                        "naturalorder": 0,
+                        "user": {
+                            "_id": "613f43b77fe6ab44eaa9c592",
+                            "username": "jayww5624"
+                        },
+                        "active": true,
+                        "wins": 0,
+                        "points": {
+                            "primary": 0,
+                            "secondary": 13.445700601487763,
+                            "tertiary": 0.7612083681741431,
+                            "extra": {
+                                "vs": 30.337742721647086
+                            },
+                            "secondaryAvgTracking": [
+                                10.100413467217956,
+                                17.154959406989057,
+                                13.08172893025628
+                            ],
+                            "tertiaryAvgTracking": [
+                                0.7885410513880685,
+                                0.7836216025414754,
+                                0.7114624505928854
+                            ],
+                            "extraAvgTracking": {
+                                "aggregatestats___vsscore": [
+                                    20.378027170702893,
+                                    38.122132015531236,
+                                    32.513068978707125
+                                ]
+                            }
+                        },
+                        "inputs": 2090,
+                        "piecesplaced": 349
+                    }
+                ],
+                "ismulti": true
+            },
+            {
+                "_id": "623455018b136ae3b73287e7",
+                "stream": "league_userrecent_613c4ffd4f77f944f128af83",
+                "replayid": "623455018b136ae3b73287e5",
+                "user": {
+                    "_id": "613c4ffd4f77f944f128af83",
+                    "username": "quo_kor"
+                },
+                "ts": "2022-03-18T09:46:41.992Z",
+                "endcontext": [
+                    {
+                        "naturalorder": 1,
+                        "user": {
+                            "_id": "613c4ffd4f77f944f128af83",
+                            "username": "quo_kor"
+                        },
+                        "active": true,
+                        "wins": 3,
+                        "points": {
+                            "primary": 3,
+                            "secondary": 15.050529217508222,
+                            "tertiary": 0.9101456022542639,
+                            "extra": {
+                                "vs": 36.30454379912015
+                            },
+                            "secondaryAvgTracking": [
+                                11.144496039333516,
+                                19.966722129783694,
+                                14.04036948340746
+                            ],
+                            "tertiaryAvgTracking": [
+                                0.8740781207320404,
+                                0.9983361064891847,
+                                0.8580225795415668
+                            ],
+                            "extraAvgTracking": {
+                                "aggregatestats___vsscore": [
+                                    27.861240098333784,
+                                    44.92512479201331,
+                                    36.12726650701334
+                                ]
+                            }
+                        },
+                        "inputs": 1917,
+                        "piecesplaced": 429
+                    },
+                    {
+                        "naturalorder": 0,
+                        "user": {
+                            "_id": "612341653334fb5aa7effc09",
+                            "username": "immandy"
+                        },
+                        "active": true,
+                        "wins": 0,
+                        "points": {
+                            "primary": 0,
+                            "secondary": 10.484144694325753,
+                            "tertiary": 0.9322507752638608,
+                            "extra": {
+                                "vs": 24.82430632691437
+                            },
+                            "secondaryAvgTracking": [
+                                9.50559956296094,
+                                7.980049875311721,
+                                13.9667846447046
+                            ],
+                            "tertiaryAvgTracking": [
+                                0.9232450150232177,
+                                0.8811305070656692,
+                                0.9923768037026953
+                            ],
+                            "extraAvgTracking": {
+                                "aggregatestats___vsscore": [
+                                    21.85195301830101,
+                                    19.950124688279303,
+                                    32.67084127416281
+                                ]
+                            }
+                        },
+                        "inputs": 1964,
+                        "piecesplaced": 465
+                    }
+                ],
+                "ismulti": true
+            },
+            {
+                "_id": "62330e7eef065ce3b0b03153",
+                "stream": "league_userrecent_613c4ffd4f77f944f128af83",
+                "replayid": "62330e7eef065ce3b0b03152",
+                "user": {
+                    "_id": "613c4ffd4f77f944f128af83",
+                    "username": "quo_kor"
+                },
+                "ts": "2022-03-17T10:33:34.464Z",
+                "endcontext": [
+                    {
+                        "naturalorder": 1,
+                        "user": {
+                            "_id": "6200bd7f578230b1d106cc46",
+                            "username": "3mtemple"
+                        },
+                        "active": true,
+                        "wins": 3,
+                        "points": {
+                            "primary": 3,
+                            "secondary": 15.656187817515109,
+                            "tertiary": 1.0302195598623007,
+                            "extra": {
+                                "vs": 31.443449940716096
+                            },
+                            "secondaryAvgTracking": [
+                                19.095163806552264,
+                                8.961593172119489,
+                                15.126050420168067,
+                                21.476510067114095,
+                                13.621621621621623
+                            ],
+                            "tertiaryAvgTracking": [
+                                0.9921996879875196,
+                                0.9815078236130867,
+                                1.0482087571870855,
+                                1.0589112602535422,
+                                1.0702702702702702
+                            ],
+                            "extraAvgTracking": {
+                                "aggregatestats___vsscore": [
+                                    38.37753510140406,
+                                    14.935988620199147,
+                                    29.1906236178682,
+                                    35.79418344519016,
+                                    38.91891891891891
+                                ]
+                            }
+                        },
+                        "inputs": 1783,
+                        "piecesplaced": 368
+                    },
+                    {
+                        "naturalorder": 0,
+                        "user": {
+                            "_id": "613c4ffd4f77f944f128af83",
+                            "username": "quo_kor"
+                        },
+                        "active": true,
+                        "wins": 2,
+                        "points": {
+                            "primary": 2,
+                            "secondary": 14.683201381082625,
+                            "tertiary": 0.9152218061934312,
+                            "extra": {
+                                "vs": 33.245446458491514
+                            },
+                            "secondaryAvgTracking": [
+                                10.035620257085334,
+                                20.498220640569397,
+                                6.359019651137117,
+                                25.860787713648747,
+                                10.662358642972535
+                            ],
+                            "tertiaryAvgTracking": [
+                                0.9942697847297507,
+                                0.9181494661921707,
+                                0.8213733716052108,
+                                0.9214763438196681,
+                                0.9208400646203554
+                            ],
+                            "extraAvgTracking": {
+                                "aggregatestats___vsscore": [
+                                    26.947498838469876,
+                                    42.70462633451957,
+                                    11.923161845882094,
+                                    66.8813475352985,
+                                    17.77059773828756
+                                ]
+                            }
+                        },
+                        "inputs": 1632,
+                        "piecesplaced": 331
+                    }
+                ],
+                "ismulti": true
+            },
+            {
+                "_id": "623305b1e8dc8be38619de65",
+                "stream": "league_userrecent_613c4ffd4f77f944f128af83",
+                "replayid": "623305b1e8dc8be38619de63",
+                "user": {
+                    "_id": "613c4ffd4f77f944f128af83",
+                    "username": "quo_kor"
+                },
+                "ts": "2022-03-17T09:56:01.590Z",
+                "endcontext": [
+                    {
+                        "naturalorder": 1,
+                        "user": {
+                            "_id": "613c4ffd4f77f944f128af83",
+                            "username": "quo_kor"
+                        },
+                        "active": true,
+                        "wins": 3,
+                        "points": {
+                            "primary": 3,
+                            "secondary": 17.29592693059483,
+                            "tertiary": 0.8987163155160593,
+                            "extra": {
+                                "vs": 42.7084086303073
+                            },
+                            "secondaryAvgTracking": [
+                                13.609156778326158,
+                                17.529215358931552,
+                                19.102365686491265,
+                                18.94296989863035
+                            ],
+                            "tertiaryAvgTracking": [
+                                0.8568728341909062,
+                                0.8848080133555927,
+                                0.9153216891443732,
+                                0.9378627253733653
+                            ],
+                            "extraAvgTracking": {
+                                "aggregatestats___vsscore": [
+                                    34.022891945815395,
+                                    40.90150250417363,
+                                    45.76608445721866,
+                                    50.143155614021516
+                                ]
+                            }
+                        },
+                        "inputs": 2933,
+                        "piecesplaced": 582
+                    },
+                    {
+                        "naturalorder": 0,
+                        "user": {
+                            "_id": "62306258b47831873bda50f6",
+                            "username": "tnjro"
+                        },
+                        "active": true,
+                        "wins": 1,
+                        "points": {
+                            "primary": 1,
+                            "secondary": 18.266003722082637,
+                            "tertiary": 1.0625552253229464,
+                            "extra": {
+                                "vs": 38.76201439643675
+                            },
+                            "secondaryAvgTracking": [
+                                12.854442344045369,
+                                22.578397212543553,
+                                18.69406695392774,
+                                18.93710837781388
+                            ],
+                            "tertiaryAvgTracking": [
+                                1.0081915563957153,
+                                1.0369337979094078,
+                                1.1004308916141863,
+                                1.1046646553724764
+                            ],
+                            "extraAvgTracking": {
+                                "aggregatestats___vsscore": [
+                                    25.834908632640204,
+                                    47.66550522648084,
+                                    39.774610540271794,
+                                    41.77303318635415
+                                ]
+                            }
+                        },
+                        "inputs": 3066,
+                        "piecesplaced": 688
+                    }
+                ],
+                "ismulti": true
+            },
+            {
+                "_id": "6232bd18688b6fe3a88a56db",
+                "stream": "league_userrecent_613c4ffd4f77f944f128af83",
+                "replayid": "6232bd18688b6fe3a88a56d9",
+                "user": {
+                    "_id": "613c4ffd4f77f944f128af83",
+                    "username": "quo_kor"
+                },
+                "ts": "2022-03-17T04:46:16.982Z",
+                "endcontext": [
+                    {
+                        "naturalorder": 0,
+                        "user": {
+                            "_id": "622f108d0bff58697042b53b",
+                            "username": "p_tetris_orange"
+                        },
+                        "active": true,
+                        "wins": 1,
+                        "points": {
+                            "primary": 1,
+                            "secondary": 14.085238000539377,
+                            "tertiary": 0.7534512633055623,
+                            "extra": {
+                                "vs": 31.301908978017288
+                            },
+                            "secondaryAvgTracking": [
+                                11.147811725846408,
+                                17.022664275232348
+                            ],
+                            "tertiaryAvgTracking": [
+                                0.7927332782824112,
+                                0.7141692483287135
+                            ],
+                            "extraAvgTracking": {
+                                "aggregatestats___vsscore": [
+                                    18.579686209744015,
+                                    44.024131746290564
+                                ]
+                            }
+                        },
+                        "inputs": 732,
+                        "piecesplaced": 137
+                    },
+                    {
+                        "naturalorder": 1,
+                        "user": {
+                            "_id": "613c4ffd4f77f944f128af83",
+                            "username": "quo_kor"
+                        },
+                        "active": false,
+                        "wins": 1,
+                        "points": {
+                            "primary": 1,
+                            "secondary": 12.682512197745826,
+                            "tertiary": 0.8213647160370758,
+                            "extra": {
+                                "vs": 25.152049100365897
+                            },
+                            "secondaryAvgTracking": [
+                                8.159901092107974,
+                                17.205123303383676
+                            ],
+                            "tertiaryAvgTracking": [
+                                0.8283535957139913,
+                                0.8143758363601605
+                            ],
+                            "extraAvgTracking": {
+                                "aggregatestats___vsscore": [
+                                    13.59983515351329,
+                                    36.704263047218504
+                                ]
+                            }
+                        },
+                        "inputs": 737,
+                        "piecesplaced": 138
+                    }
+                ],
+                "ismulti": true
+            },
+            {
+                "_id": "6232bbfc8b136ae3b731d737",
+                "stream": "league_userrecent_613c4ffd4f77f944f128af83",
+                "replayid": "6232bbfc8b136ae3b731d735",
+                "user": {
+                    "_id": "613c4ffd4f77f944f128af83",
+                    "username": "quo_kor"
+                },
+                "ts": "2022-03-17T04:41:32.973Z",
+                "endcontext": [
+                    {
+                        "naturalorder": 0,
+                        "user": {
+                            "_id": "613c4ffd4f77f944f128af83",
+                            "username": "quo_kor"
+                        },
+                        "active": true,
+                        "wins": 3,
+                        "points": {
+                            "primary": 3,
+                            "secondary": 13.003480302516515,
+                            "tertiary": 0.7160066868860837,
+                            "extra": {
+                                "vs": 31.31879497649956
+                            },
+                            "secondaryAvgTracking": [
+                                12.54511512134412,
+                                29.37062937062937,
+                                10.098176718092567,
+                                0
+                            ],
+                            "tertiaryAvgTracking": [
+                                0.9184816428126945,
+                                0.9965034965034965,
+                                0.949041608228144,
+                                0
+                            ],
+                            "extraAvgTracking": {
+                                "aggregatestats___vsscore": [
+                                    26.13565650280025,
+                                    73.42657342657341,
+                                    25.71294997662459,
+                                    0
+                                ]
+                            }
+                        },
+                        "inputs": 1835,
+                        "piecesplaced": 383
+                    },
+                    {
+                        "naturalorder": 1,
+                        "user": {
+                            "_id": "62201fc60bff5869703c9664",
+                            "username": "lightbulbblub"
+                        },
+                        "active": false,
+                        "wins": 1,
+                        "points": {
+                            "primary": 1,
+                            "secondary": 12.193698199159838,
+                            "tertiary": 0.8186978851136626,
+                            "extra": {
+                                "vs": 23.963065700438364
+                            },
+                            "secondaryAvgTracking": [
+                                10.763672604958266,
+                                23.14436002337814,
+                                14.866760168302946,
+                                0
+                            ],
+                            "tertiaryAvgTracking": [
+                                0.979195216145509,
+                                1.1221507890122735,
+                                1.1734455352968676,
+                                0
+                            ],
+                            "extraAvgTracking": {
+                                "aggregatestats___vsscore": [
+                                    20.92936339852996,
+                                    40.32729398012858,
+                                    34.5956054230949,
+                                    0
+                                ]
+                            }
+                        },
+                        "inputs": 1801,
+                        "piecesplaced": 446
+                    }
+                ],
+                "ismulti": true
+            },
+            {
+                "_id": "6232b9dc8b136ae3b731d671",
+                "stream": "league_userrecent_613c4ffd4f77f944f128af83",
+                "replayid": "6232b9dc8b136ae3b731d670",
+                "user": {
+                    "_id": "613c4ffd4f77f944f128af83",
+                    "username": "quo_kor"
+                },
+                "ts": "2022-03-17T04:32:28.550Z",
+                "endcontext": [
+                    {
+                        "naturalorder": 0,
+                        "user": {
+                            "_id": "61c72e47838e9054e8374156",
+                            "username": "crayon_nom"
+                        },
+                        "active": true,
+                        "wins": 3,
+                        "points": {
+                            "primary": 3,
+                            "secondary": 17.563411230487347,
+                            "tertiary": 1.0993156964696704,
+                            "extra": {
+                                "vs": 38.34937810528821
+                            },
+                            "secondaryAvgTracking": [
+                                12.201212986086336,
+                                24.705882352941178,
+                                10.851544837980407,
+                                19.18173168411037,
+                                20.87668429131844
+                            ],
+                            "tertiaryAvgTracking": [
+                                1.0916874777024617,
+                                1.1274509803921569,
+                                1.0851544837980407,
+                                1.1075166508087537,
+                                1.0847688896469385
+                            ],
+                            "extraAvgTracking": {
+                                "aggregatestats___vsscore": [
+                                    20.33535497681056,
+                                    62.745098039215684,
+                                    18.085908063300675,
+                                    44.52901998097051,
+                                    46.05150946614362
+                                ]
+                            }
+                        },
+                        "inputs": 1717,
+                        "piecesplaced": 492
+                    },
+                    {
+                        "naturalorder": 1,
+                        "user": {
+                            "_id": "613c4ffd4f77f944f128af83",
+                            "username": "quo_kor"
+                        },
+                        "active": true,
+                        "wins": 2,
+                        "points": {
+                            "primary": 2,
+                            "secondary": 15.93589543791675,
+                            "tertiary": 0.9072102954499949,
+                            "extra": {
+                                "vs": 34.341672494772574
+                            },
+                            "secondaryAvgTracking": [
+                                15.417558886509637,
+                                22.31647634584013,
+                                16.28549886906258,
+                                10.936016707803304,
+                                14.723926380368098
+                            ],
+                            "tertiaryAvgTracking": [
+                                0.8244111349036402,
+                                0.9885807504078303,
+                                1.0404624277456649,
+                                0.8543763052971332,
+                                0.8282208588957055
+                            ],
+                            "extraAvgTracking": {
+                                "aggregatestats___vsscore": [
+                                    29.978586723768736,
+                                    54.81239804241436,
+                                    30.15833123900478,
+                                    25.061704955382574,
+                                    31.697341513292432
+                                ]
+                            }
+                        },
+                        "inputs": 2050,
+                        "piecesplaced": 403
+                    }
+                ],
+                "ismulti": true
+            }
+        ]
+    },
+    "cache": {
+        "status": "miss",
+        "cached_at": 1648553720758,
+        "cached_until": 1648553780758
+    }
+}

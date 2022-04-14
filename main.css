@@ -1,0 +1,242 @@
+::-webkit-scrollbar {
+    display: none;
+}
+
+.loader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+    opacity: 0;
+    transition: 0.5s ease;
+    display: none;
+}
+
+body {
+    width: 750px;
+    height: 500px;
+    /* background-color: #131621; */
+    margin: 0px;
+    font-family: 'Noto Sans';
+}
+
+body>* {
+    font-family: 'Noto Sans';
+}
+
+#search {
+    margin: 10px;
+}
+
+#logo {
+    top: 12px;
+    left: 10px;
+    position: absolute;
+}
+
+/* #username {
+    width: 500px;
+    height: 32px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+    font-family: 'Noto Sans';
+} */
+#usernameInput {
+    width: 500px;
+    height: 32px;
+    font-size: 15px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgb(233, 233, 233);
+    font-family: 'Noto Sans';
+}
+
+#submit {
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    border: 3px solid rgb(0, 0, 0);
+    /* color */
+    border-radius: 5px;
+    background-color: rgb(78, 120, 238);
+    font-family: 'Noto Sans';
+}
+
+#username {
+    margin-top: 10px;
+    font-size: 40px;
+}
+
+#level {
+    font-size: 20px;
+}
+
+#rank_image {
+    display: none;
+    position: absolute;
+    top: 170px;
+    /* right: 15px; */
+    left: 280px;
+    width: 130px;
+    height: 130px;
+}
+
+.wins {
+    color: #4287f5;
+}
+
+.loses {
+    color: #f54248;
+}
+
+.WL {
+    font-size: 15px;
+    display: inline;
+}
+
+#history {
+    margin-top: 100px;
+}
+
+.match_history {
+    margin-right: -4px;
+    width: 720px;
+    height: 50px;
+    /* background-color: black; */
+    border: 3px solid rgb(139, 139, 139);
+    margin-bottom: 10px;
+}
+
+.match_history:hover {
+    background-color: lightgray;
+}
+
+.history_win {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(78, 120, 238); */
+}
+
+.history_lose {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    /* background-color: rgb(238, 78, 78); */
+}
+
+.versus_win {
+    /* position: absolute; */
+    display: inline-block;
+    font-size: 20px;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-right: 3px solid rgb(139, 139, 139);
+    ;
+    background-color: rgb(78, 120, 238);
+    margin-right: -4px;
+}
+
+.versus_lose {
+    /* position: absolute; */
+    display: inline-block;
+    font-size: 20px;
+    width: 80px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    border-right: 3px solid rgb(139, 139, 139);
+    background-color: rgb(238, 78, 78);
+    margin-right: -4px;
+}
+
+.versus {
+    display: inline-block;
+    font-size: 19px;
+    width: 335px;
+    height: 50px;
+    border-right: 3px solid rgb(139, 139, 139);
+    text-align: center;
+    line-height: 50px;
+    margin-right: -4px;
+}
+
+.versus_time {
+    display: inline-block;
+    font-size: 19px;
+    width: 280px;
+    height: 50px;
+    /* border-right: 3px solid black; */
+    margin-right: -4px;
+    text-align: center;
+    line-height: 50px;
+}
+
+p {
+    display: none;
+    position: absolute;
+    top: 270px;
+    right: 15px;
+    font-size: 20px;
+}
+
+#replay {
+    display: none;
+    position: absolute;
+    top: 325px;
+    right: 15px;
+    font-size: 19px;
+    width: 50px;
+    height: 50px;
+    border: 3px solid black;
+    text-align: center;
+    line-height: 40px;
+    background-color: greenyellow;
+}
+
+#records {
+    position: absolute;
+    /* background-color: aquamarine;     */
+    top: 180px;
+    /* left: 280px; */
+    right: 15px;
+    width: 300px;
+    height: 100px;
+}
+
+#recordTable {
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+
+/* #recordTable>* {
+    font-size: 20px;
+    text-align: center;
+    width: 10px;
+    height: 50px;
+    border: 2px solid black;
+} */
+td {
+    font-size: 20px;
+    text-align: center;
+    width: 150px;
+    height: 50px;
+    border: 2px solid black;
+}
+
+td:nth-child(odd) {
+    background-color: #e6f1ff;
+}
+
+td:nth-child(even) {
+    background-color: #f0f7ff;
+}
