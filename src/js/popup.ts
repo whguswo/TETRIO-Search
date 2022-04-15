@@ -16,8 +16,13 @@ const recordTable = document.querySelector<HTMLTableElement>("#recordTable")
 const history = document.querySelector<HTMLDivElement>("#history")
 
 const loader = document.querySelector<HTMLDivElement>('.loader');
+let originUrl = 'https://ch.tetr.io';
 // const html = document.querySelector('html');
-
+if(import.meta?.env){
+    if(import.meta.env.MODE === 'development'){
+        originUrl = '';
+    }
+}
 let replayURL = ""
 let replaySelected = false
 
@@ -25,14 +30,14 @@ const XPtoLevel = (xp:number) => {
     return Math.floor(Math.pow(xp / 500, 0.6) + (xp / (5000 + Math.max(0, xp - 4000000) / 5000)) + 1)
 }
 const getStream = async (streamID:string) => {
-    const result = await fetch(`https://ch.tetr.io/api/streams/league_userrecent_${encodeURIComponent(streamID)}`, {
+    const result = await fetch(`${originUrl}/api/streams/league_userrecent_${encodeURIComponent(streamID)}`, {
         method: 'GET'
     });
     let data = await result.text()
     return data
 }
 const getRecord = async (user:string) => {
-    const result = await fetch(`https://ch.tetr.io/api/users/${user}/records`, {
+    const result = await fetch(`${originUrl}/api/users/${user}/records`, {
         method: 'GET'
     });
     let data = await result.text()
@@ -76,7 +81,7 @@ const search = async (username:string) => {
     loader.style.opacity = '1';
     loader.style.display = 'block'
     history.innerHTML = ''
-    const result = await fetch(`https://ch.tetr.io/api/users/${username}`, {
+    const result = await fetch(`${originUrl}/api/users/${username}`, {
         method: 'GET',
     });
     let data = await result.text()
