@@ -18,7 +18,14 @@ export default defineConfig({
         }
     },
     server:{
-        open:'/html/popup.html'
+        open:'/html/popup.html',
+        proxy:{
+            '/api':{
+                target:'https://ch.tetr.io',
+                changeOrigin:true,
+                secure:true,
+            }
+        }
     },
     root:'./src'
 });
