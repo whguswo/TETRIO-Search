@@ -58,7 +58,7 @@ const parseMS = (oms:number) => {
 }
 
 usernameInput.addEventListener("keyup", (e) => {
-    if (e.keyCode == 13) {
+    if (e.code === "Enter") {
         if (usernameInput.value && usernameInput.value.indexOf("\\") == -1 && usernameInput.value.indexOf("/") == -1) {
             search(usernameInput.value)
         }
