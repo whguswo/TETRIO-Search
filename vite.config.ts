@@ -1,15 +1,16 @@
-import path from 'path';
-import { defineConfig } from 'vite';
-
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+// https://vitejs.dev/config/
 export default defineConfig({
-    publicDir:path.resolve(__dirname, 'public'),
+  plugins: [react()],
+  publicDir:`${__dirname}/public`,
     build:{
         emptyOutDir:true,
-        outDir:path.resolve(__dirname, 'dist'),
+        outDir:`${__dirname}/dist`,
         rollupOptions:{
             input:{
-                popup:path.resolve(__dirname, 'src/html/popup.html'),
-                background:path.resolve(__dirname, 'src/js/background.ts')
+                popup:`${__dirname}/src/html/popup2.html`,
+                background:`${__dirname}/src/js/background.ts`
             },
             output:{
                 entryFileNames:'js/[name].js',
@@ -28,4 +29,4 @@ export default defineConfig({
         }
     },
     root:'./src'
-});
+})

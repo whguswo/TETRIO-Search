@@ -1,3 +1,8 @@
+body{
+    width: 750px;
+    height: 500px;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -13,18 +18,6 @@
     opacity: 0;
     transition: 0.5s ease;
     display: none;
-}
-
-body {
-    width: 750px;
-    height: 500px;
-    /* background-color: #131621; */
-    margin: 0px;
-    font-family: 'Noto Sans';
-}
-
-body>* {
-    font-family: 'Noto Sans';
 }
 
 #search {
