@@ -1,39 +1,48 @@
-# TETRIO-Search
-TETRIO 유저 전적을 검색할수 있습니다.
+# Svelte + TS + Vite
 
-유저 이름을 입력한 뒤 엔터나 검색버튼을 클릭해서 검색합니다. (유저의 티어, 40 Lines 최고기록, Blitz 최고기록등을 알수있습니다.)
-최근기록을 클릭한 후 리플레이 버튼을 눌러 리플레이를 볼수있습니다.
+This template should help get you started developing with Svelte and TypeScript in Vite.
 
-[TETRIO](https://tetr.io/)  
-[TETRIO 전적검색 확장프로그램](https://chrome.google.com/webstore/detail/tetrio-search/dhikfeejdomhkbgghlhahhhokfndphnn?hl=ko)
+## Recommended IDE Setup
 
-# 폴더 구조
+[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
 
-```bash
-.
-├─public
-│  ├─design                 # 웹스토어 디자인 폴더
-│  ├─images                 # 각종 이미지 폴더
-│  ├─favicon.svg            # test 시 임시 아이콘
-│  └─manifest.json          # manifest.json 필수파일!!!
-├─src
-│   ├─css
-│   │  └─popup.css          # popup 디자인 파일
-│   ├─html
-│   │  └─popup.html         # popup 레이아웃 파일
-│   └─js
-│      ├─background.ts      # serviceworker (추가 지원 예정)
-│      └─popup.ts           # popup 스크립트 파일
-├─vite-env.d.ts             # 건들지 말 것
-└─vite.config.ts            # vite 설정 파일
+## Need an official Svelte framework?
+
+Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+
+## Technical considerations
+
+**Why use this over SvelteKit?**
+
+- It brings its own routing solution which might not be preferable for some users.
+- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
+  `vite dev` and `vite build` wouldn't work in a SvelteKit environment, for example.
+
+This template contains as little as possible to get started with Vite + TypeScript + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
+
+Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
+
+**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
+
+Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
+
+**Why include `.vscode/extensions.json`?**
+
+Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
+
+**Why enable `allowJs` in the TS template?**
+
+While `allowJs: false` would indeed prevent the use of `.js` files in the project, it does not prevent the use of JavaScript syntax in `.svelte` files. In addition, it would force `checkJs: false`, bringing the worst of both worlds: not being able to guarantee the entire codebase is TypeScript, and also having worse typechecking for the existing JavaScript. In addition, there are valid use cases in which a mixed codebase may be relevant.
+
+**Why is HMR not preserving my local component state?**
+
+HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
+
+If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
+
+```ts
+// store.ts
+// An extremely simple external store
+import { writable } from 'svelte/store'
+export default writable(0)
 ```
-
-# 사용법
-
-```bash
-npm i
-npm run dev                 # 프로그램 실행 시
-npm run build               # 프로그램 배포 시
-```
-
-배포 시에는 무조건 `dist` 폴더를 가리킬 것!!!
