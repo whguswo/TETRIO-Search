@@ -2,7 +2,7 @@
     "name": "TETRIO Search",
     "description": "TETR.IO 유저의 전적을 검색할수있습니다.",
     "version": "1.1",
-    "manifest_version": 4,
+    "manifest_version": 3,
     "background": {
         "service_worker": "js/background.js"
     },
