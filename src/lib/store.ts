@@ -1,15 +1,16 @@
 import { writable } from 'svelte/store'
 
 export const info = {
-    url:'',
+    url: '',
     user: {
-        name:'',
-        level:'',
-        image:'',
+        name: '',
+        level: '',
+        image: '',
+        rating: '',
     }
 };
 
 export const state = writable({
-    loader:false,
-    replay:false,
+    loader: false,
+    replay: false,
 });
